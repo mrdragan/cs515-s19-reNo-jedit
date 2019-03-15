@@ -1,0 +1,70 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE KILLRING SYSTEM "killring.dtd">
+<KILLRING>
+<ENTRY>
+
+\</ENTRY>
+<ENTRY>\author{Ben Sattelberg and Matt Dragan}
+\date{Team reNo}
+
+\begin{document}
+
+\maketitle
+
+\section{Bug: }
+</ENTRY>
+<ENTRY>
+kkk</ENTRY>
+<ENTRY>jdfjksjflkdjaljfldsjalfjdlkjflasjfldsjlfj</ENTRY>
+<ENTRY>sssssssssssssssssssssssssssssssssssssssssssssssss</ENTRY>
+<ENTRY>sssssssssssssssssssssssssssss</ENTRY>
+<ENTRY>ssssssssssssssssssssssssssssssssssssssssssssssssss</ENTRY>
+<ENTRY>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</ENTRY>
+<ENTRY>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaajkjk;;lkj;laksjdjfdk;sa;alskjfjk;lklllllllllllllll</ENTRY>
+<ENTRY>aaaaaaaaaaaaaa</ENTRY>
+<ENTRY>aaaaaaaaaaaaaaaaaaaaaa</ENTRY>
+<ENTRY>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</ENTRY>
+<ENTRY>7777777kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</ENTRY>
+<ENTRY>88888888888888888888888</ENTRY>
+<ENTRY>999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999</ENTRY>
+<ENTRY>999</ENTRY>
+<ENTRY>99999999999999</ENTRY>
+<ENTRY>6666666</ENTRY>
+<ENTRY>dslkfdlskjfkdjfkdjskafdkfkdjfkdslslkdkslskdddddddddddddddddddddddddd</ENTRY>
+<ENTRY>\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{jEdit bugs and features}
+\author{Ben Sattelberg and Matt Dragan}
+\date{Team reNo}
+
+\begin{document}
+
+\maketitle
+
+\section{Bug: }
+
+\includegraphics[draft, width=\textwidth]{correctBehavior.png}
+
+\includegraphics[draft, width=\textwidth]{wrongBehavior.png}
+
+\includegraphics[draft, width=\textwidth]{stacktrace.png}
+
+\section{Feature request: Vim keybindings}
+
+In addition to support for keymaps such as Emacs, Mac OS X, and jEdit, allow support for Vim binds.
+
+\includegraphics[width=\textwidth]{mockUp.png}
+
+\section{Feature request: Allow more customization of file name}
+
+Rather than only allowing the incremented variable to be the first character, allow it to be the last character.
+
+\end{document}
+
+
+
+
+
+Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</ENTRY>
+</KILLRING>

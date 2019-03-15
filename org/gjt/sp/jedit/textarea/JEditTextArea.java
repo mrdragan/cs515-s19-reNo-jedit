@@ -357,13 +357,22 @@ public class JEditTextArea extends TextArea
 			GUIUtilities.error(view,"format-maxlinelen",null);
 		}
 	} //}}}
-
-	//{{{ doWordCount() method
 	@SuppressWarnings("fallthrough")
-	protected static void doWordCount(View view, String text)
+	public static Object[] getWordCount(String text)
+	{
+		Object[] argsBig = getWordCountToPoint(text, 0);
+		Object[] args = { argsBig[1], argsBig[3], argsBig[5] };
+		return args;
+	}
+	
+	public static Object[] getWordCountToPoint(String text, int toPoint)
 	{
 		char[] chars = text.toCharArray();
-		int characters = chars.length;
+		int maxCharacters = chars.length;
+		int maxWords = 0;
+		int maxLines = 1;
+		
+		int characters = 0;
 		int words = 0;
 		int lines = 1;
 
@@ -374,7 +383,7 @@ public class JEditTextArea extends TextArea
 			{
 				case '\r':
 				case '\n':
-					lines++;
+					maxLines++;
 				case ' ':
 				case '\t':
 					word = true;
@@ -382,14 +391,28 @@ public class JEditTextArea extends TextArea
 				default:
 					if (word)
 					{
-						words++;
+						maxWords++;
 						word = false;
 					}
 					break;
 			}
+			if (characters < toPoint)
+			{
+				characters++;
+				words = maxWords;
+				lines = maxLines;
+			}
 		}
-
-		Object[] args = { characters, words, lines };
+		Object[] args = { characters, maxCharacters, words, maxWords, lines, maxLines };
+		return args;
+	
+	}
+	//{{{ doWordCount() method
+	@SuppressWarnings("fallthrough")
+	protected static void doWordCount(View view, String text)
+	{
+		
+		Object[] args = getWordCount(text);
 		GUIUtilities.message(view,"wordcount",args);
 	} //}}}
 

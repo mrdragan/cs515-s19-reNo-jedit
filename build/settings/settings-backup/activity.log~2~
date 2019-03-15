@@ -1,0 +1,124 @@
+Log file created on Thu Mar 14 17:23:38 MDT 2019
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+5:23:37 PM [main] [message] Log: When reporting bugs, please include the following information:
+5:23:37 PM [main] [message] Log: java.version=1.8.0_201
+5:23:37 PM [main] [message] Log: java.vm.version=25.201-b09
+5:23:37 PM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+5:23:37 PM [main] [message] Log: java.runtime.version=1.8.0_201-b09
+5:23:37 PM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+5:23:37 PM [main] [message] Log: java.vendor=Oracle Corporation
+5:23:37 PM [main] [message] Log: java.compiler=null
+5:23:37 PM [main] [message] Log: os.name=Linux
+5:23:37 PM [main] [message] Log: os.version=4.15.0-46-generic
+5:23:37 PM [main] [message] Log: os.arch=amd64
+5:23:37 PM [main] [message] Log: user.home=/home/mrdragan
+5:23:37 PM [main] [message] Log: java.home=/usr/lib/jvm/java-8-oracle/jre
+5:23:37 PM [main] [message] Log: java.class.path=/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/jedit.jar
+5:23:37 PM [main] [message] jEdit: starting with command line arguments: -settings=/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings
+5:23:37 PM [main] [debug] jEdit: before splash screen activation:93 ms
+5:23:38 PM [main] [debug] jEdit: after splash screen activation:188 ms
+5:23:38 PM [main] [debug] MiscUtilities: Saving backup of file "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/activity.log" to "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/settings-backup/activity.log~1~"
+5:23:38 PM [main] [notice] jEdit: jEdit version 5.5.0
+5:23:38 PM [main] [message] jEdit: Settings directory is /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings
+5:23:38 PM [main] [message] jEdit: jEdit home directory is /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build
+5:23:38 PM [main] [debug] SplashScreen: init:19/106ms
+5:23:38 PM [main] [debug] SplashScreen: init system properties:16/122ms
+5:23:38 PM [main] [message] BeanShell: Beanshell Init
+5:23:38 PM [main] [debug] SplashScreen: init beanshell:24/146ms
+5:23:38 PM [main] [debug] SplashScreen: loading site properties:2/148ms
+5:23:38 PM [main] [debug] SplashScreen: loading user properties:2/150ms
+5:23:38 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+5:23:38 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+5:23:38 PM [main] [debug] SplashScreen: init GUI:2/152ms
+5:23:38 PM [main] [debug] EditServer: jEdit server started on port 33571
+5:23:38 PM [main] [debug] EditServer: Authorization key is 1837843818
+5:23:38 PM [main] [debug] SplashScreen: init server:7/159ms
+5:23:38 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+5:23:38 PM [main] [debug] SplashScreen: init look and feel:2/161ms
+5:23:38 PM [main] [debug] SplashScreen: init VFS Manager:1/162ms
+5:23:38 PM [main] [debug] ActionSet: Loading actions from jar:file:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+5:23:38 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+5:23:38 PM [main] [debug] SplashScreen: init resources:55/217ms
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+5:23:38 PM [main] [debug] SplashScreen: Migrate keymaps:18/235ms
+5:23:38 PM [main] [notice] jEdit: Loading plugins from /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/jars
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+5:23:38 PM [main] [notice] jEdit: Loading plugins from /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/jars
+5:23:38 PM [main] [debug] SplashScreen: init plugins:9/244ms
+5:23:38 PM [main] [message] HistoryModel: Loading history
+5:23:38 PM [main] [debug] SplashScreen: init history model:5/249ms
+5:23:38 PM [main] [message] BufferHistory: Loading /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/recent.xml
+5:23:38 PM [main] [debug] SplashScreen: init buffer history:3/252ms
+5:23:38 PM [main] [message] KillRing: Loading /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/killring.xml
+5:23:38 PM [main] [debug] SplashScreen: init killring:7/259ms
+5:23:38 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+5:23:38 PM [main] [debug] jEdit: SOCKS proxy disabled
+5:23:38 PM [main] [debug] jEdit: HTTP proxy disabled
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+5:23:38 PM [main] [debug] SplashScreen: init various properties:14/273ms
+5:23:38 PM [main] [message] jEdit: Loading mode catalog file /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/modes/catalog
+5:23:38 PM [main] [message] jEdit: Loading mode catalog file /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/modes/catalog
+5:23:38 PM [main] [debug] SplashScreen: init modes:34/307ms
+5:23:38 PM [main] [debug] SplashScreen: activate plugins:4/311ms
+5:23:38 PM [main] [debug] Macros: Registered beanshell macro handler
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+5:23:38 PM [main] [debug] SplashScreen: init macros:22/333ms
+5:23:38 PM [main] [message] BeanShell: Running script /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/startup/startup.bsh
+5:23:38 PM [main] [notice] jEdit$5: Loading edit mode /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/modes/text.xml
+5:23:38 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+5:23:38 PM [main] [debug] SplashScreen: run startup scripts:73/406ms
+5:23:38 PM [main] [debug] SplashScreen: run startup scripts:1/407ms
+5:23:38 PM [main] [debug] SplashScreen: run startup scripts:1/407ms
+5:23:38 PM [main] [debug] jEdit: main done:517 ms
+5:23:38 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/perspective.xml
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/)]
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/)]
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/)]
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/)]
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-2 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/temp/)]
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-2 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/temp/)]
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-2 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/temp/)]
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-2 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/temp/)]
+5:23:38 PM [AWT-EventQueue-0] [debug] BufferSet: 1072766133: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+5:23:38 PM [AWT-EventQueue-0] [debug] BufferSet: 1072766133 addBufferAt(Untitled-1 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/),-1)
+5:23:38 PM [AWT-EventQueue-0] [debug] BufferSet: 1072766133: Buffer added Untitled-1 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/) at 0
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+5:23:38 PM [AWT-EventQueue-0] [debug] BufferSet: 1072766133 addBufferAt(Untitled-1 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/),0)
+5:23:38 PM [AWT-EventQueue-0] [debug] BufferSet: 1072766133 addBufferAt(Untitled-1 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/),1)
+5:23:38 PM [AWT-EventQueue-0] [debug] BufferSet: 1072766133 addBufferAt(Untitled-2 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/temp/),2)
+5:23:38 PM [AWT-EventQueue-0] [debug] BufferSet: 1072766133: Buffer added Untitled-2 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/temp/) at 1
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+5:23:38 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 841 ms
+5:23:38 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+5:23:38 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+5:23:38 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+5:23:40 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+5:23:40 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+5:23:53 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+5:23:53 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+5:24:08 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/perspective.xml" to "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/settings-backup/perspective.xml~1~"
+5:27:07 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+5:27:07 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/perspective.xml
+5:27:07 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/perspective.xml" to "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/settings-backup/perspective.xml~1~"
+5:27:07 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+5:27:07 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+5:27:07 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+5:27:07 PM [AWT-EventQueue-0] [debug] BufferSet: 1072766133: Buffer removed Untitled-1 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/)
+5:27:07 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+5:27:07 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+5:27:07 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/) is in no bufferSet anymore, closing it
+5:27:07 PM [AWT-EventQueue-0] [debug] BufferSet: 1072766133: Buffer removed Untitled-2 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/temp/)
+5:27:07 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-2 (/media/mrdragan/Ubuntu/myCSU/cs515/a1/temp/) is in no bufferSet anymore, closing it
+5:27:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+5:27:07 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+5:27:07 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/history" to "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/settings-backup/history~1~"
+5:27:07 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/recent.xml
+5:27:07 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/recent.xml" to "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/settings-backup/recent.xml~1~"
+5:27:07 PM [AWT-EventQueue-0] [message] KillRing: Saving /media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/killring.xml
+5:27:07 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/killring.xml" to "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/settings-backup/killring.xml~1~"
+5:27:07 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/properties" to "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/settings/settings-backup/properties~1~"

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
+<PERSPECTIVE>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="TRUE">/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/Untitled-1</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/media/mrdragan/Ubuntu/myCSU/cs515/a1/temp/Untitled-2</BUFFER>
+<VIEW PLAIN="FALSE">
+<PANES>
+"/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/Untitled-1" buffer "/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/Untitled-1" buff "/media/mrdragan/Ubuntu/myCSU/cs515/a1/temp/Untitled-2" buff "global" bufferset
+</PANES>
+<GEOMETRY X="67" Y="25" WIDTH="1853" HEIGHT="1055" EXT_STATE="6" />
+</VIEW>
+</PERSPECTIVE>

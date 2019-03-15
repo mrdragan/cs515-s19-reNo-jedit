@@ -1,0 +1,866 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: org.jedit.io.Native2ASCIIEncodingTest</title>
+<link rel="stylesheet" type="text/css" title="Style" href="../../../stylesheet.css">
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['org.jedit.io.Native2ASCIIEncodingTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build.xml';
+    
+        cur['ant.file.jedit'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.jedit'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.home.ivy.instance'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.8';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.library.dir.ivy.instance'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'build';
+    
+        cur['ant.project.invoked-targets'] = 'retrieve,build,test';
+    
+        cur['ant.project.name'] = 'jedit';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.3 compiled on July 19 2018';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['awt.toolkit.ivy.instance'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit';
+    
+        cur['basedir.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit';
+    
+        cur['build.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build';
+    
+        cur['classes.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/classes';
+    
+        cur['config.build.compilerarg'] = '-Xlint:unchecked -Xlint:finally -Xlint:fallthrough -Xmaxwarns 1000';
+    
+        cur['config.build.debuglevel'] = 'lines,vars,source';
+    
+        cur['config.build.deprecation'] = 'true';
+    
+        cur['config.build.dir'] = 'build';
+    
+        cur['config.build.nowarn'] = 'false';
+    
+        cur['config.dist.dir'] = 'dist';
+    
+        cur['config.ivy.version'] = '2.2.0';
+    
+        cur['config.lib.dir'] = 'lib';
+    
+        cur['dist.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/dist';
+    
+        cur['dist.jar.filename'] = 'jedit5.5.0install.jar';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.encoding.pkg.ivy.instance'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['file.separator.ivy.instance'] = '/';
+    
+        cur['init.done'] = 'true';
+    
+        cur['ivy.basedir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit';
+    
+        cur['ivy.basedir.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit';
+    
+        cur['ivy.build.artifacts.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/artifacts';
+    
+        cur['ivy.build.artifacts.dir.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/artifacts';
+    
+        cur['ivy.buildlist.ivyfilepath'] = 'ivy.xml';
+    
+        cur['ivy.buildlist.ivyfilepath.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.cache.dir'] = '/home/mrdragan/.ivy2/cache';
+    
+        cur['ivy.cache.dir.ivy.instance'] = '/home/mrdragan/.ivy2/cache';
+    
+        cur['ivy.cache.ttl.default'] = '10s';
+    
+        cur['ivy.cache.ttl.default.ivy.instance'] = '10s';
+    
+        cur['ivy.checksums'] = 'sha1,md5';
+    
+        cur['ivy.checksums.ivy.instance'] = 'sha1,md5';
+    
+        cur['ivy.conf.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build';
+    
+        cur['ivy.conf.dir.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build';
+    
+        cur['ivy.conf.file'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/ivysettings.xml';
+    
+        cur['ivy.conf.file.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/ivysettings.xml';
+    
+        cur['ivy.conf.url'] = 'file:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/ivysettings.xml';
+    
+        cur['ivy.conf.url.ivy.instance'] = 'file:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/ivysettings.xml';
+    
+        cur['ivy.configurations'] = '*';
+    
+        cur['ivy.configurations.ivy.instance'] = '*';
+    
+        cur['ivy.default.always.check.exact.revision'] = 'false';
+    
+        cur['ivy.default.always.check.exact.revision.ivy.instance'] = 'false';
+    
+        cur['ivy.default.conf.dir'] = 'jar:file:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.conf.dir.ivy.instance'] = 'jar:file:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.ivy.user.dir'] = '/home/mrdragan/.ivy2';
+    
+        cur['ivy.default.ivy.user.dir.ivy.instance'] = '/home/mrdragan/.ivy2';
+    
+        cur['ivy.default.settings.dir'] = 'jar:file:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.settings.dir.ivy.instance'] = 'jar:file:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.deliver.ivy.pattern'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.deliver.ivy.pattern.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.dep.file'] = 'ivy.xml';
+    
+        cur['ivy.dep.file.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.deps.changed'] = 'false';
+    
+        cur['ivy.distrib.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/distrib';
+    
+        cur['ivy.distrib.dir.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/distrib';
+    
+        cur['ivy.done'] = 'true';
+    
+        cur['ivy.home'] = '/home/mrdragan/.ivy2';
+    
+        cur['ivy.home.ivy.instance'] = '/home/mrdragan/.ivy2';
+    
+        cur['ivy.jar.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/ivy';
+    
+        cur['ivy.jar.file'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/ivy/ivy-2.2.0.jar';
+    
+        cur['ivy.jar.filename'] = 'ivy-2.2.0.jar';
+    
+        cur['ivy.jar.present'] = 'true';
+    
+        cur['ivy.lib.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib';
+    
+        cur['ivy.lib.dir.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib';
+    
+        cur['ivy.local.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.root'] = '/home/mrdragan/.ivy2/local';
+    
+        cur['ivy.local.default.root.ivy.instance'] = '/home/mrdragan/.ivy2/local';
+    
+        cur['ivy.log.modules.in.use'] = 'false';
+    
+        cur['ivy.log.modules.in.use.ivy.instance'] = 'false';
+    
+        cur['ivy.module'] = 'jedit';
+    
+        cur['ivy.nb.targets.copied'] = '1';
+    
+        cur['ivy.organisation'] = 'org.jedit';
+    
+        cur['ivy.project.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit';
+    
+        cur['ivy.project.dir.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit';
+    
+        cur['ivy.publish.src.artifacts.pattern'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.publish.src.artifacts.pattern.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.report.output.pattern'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.report.output.pattern.ivy.instance'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.resolve.default.type.filter'] = '*';
+    
+        cur['ivy.resolve.default.type.filter.ivy.instance'] = '*';
+    
+        cur['ivy.resolved.configurations'] = 'default, master, compile, runtime, test, provided, sources, javadoc, ant-contrib, docbook, fop, launch4j, scripting, default-plugins';
+    
+        cur['ivy.resolved.file'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/ivy.xml';
+    
+        cur['ivy.resolver.default.check.modified'] = 'false';
+    
+        cur['ivy.resolver.default.check.modified.ivy.instance'] = 'false';
+    
+        cur['ivy.retrieve.pattern'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/[conf]/[artifact](-[classifier]).[ext]';
+    
+        cur['ivy.retrieve.pattern.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.revision'] = 'working@mrdragan-GS63VR-7RF';
+    
+        cur['ivy.settings.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build';
+    
+        cur['ivy.settings.dir.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build';
+    
+        cur['ivy.settings.file'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.file.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/ivysettings.xml';
+    
+        cur['ivy.settings.url'] = 'file:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/ivysettings.xml';
+    
+        cur['ivy.settings.url.ivy.instance'] = 'file:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/ivysettings.xml';
+    
+        cur['ivy.shared.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.root'] = '/home/mrdragan/.ivy2/shared';
+    
+        cur['ivy.shared.default.root.ivy.instance'] = '/home/mrdragan/.ivy2/shared';
+    
+        cur['ivy.status'] = 'integration';
+    
+        cur['ivy.status.ivy.instance'] = 'integration';
+    
+        cur['ivy.targets.copied'] = 'true';
+    
+        cur['ivy.version'] = '2.2.0';
+    
+        cur['jar.filename'] = 'jedit.jar';
+    
+        cur['jar.location'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.graphicsenv.ivy.instance'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.awt.printerjob.ivy.instance'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/test/hamcrest-core.jar:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/test/hamcrest-library.jar:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/test/jsr305.jar:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib/test/junit-dep.jar:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/classes/core:/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/classes/test:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.path.ivy.instance'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/junit.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/lib/jvm/java-8-oracle/lib/tools.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.class.version.ivy.instance'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-8-oracle/jre/lib/endorsed';
+    
+        cur['java.endorsed.dirs.ivy.instance'] = '/usr/lib/jvm/java-8-oracle/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.ext.dirs.ivy.instance'] = '/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-8-oracle/jre';
+    
+        cur['java.home.ivy.instance'] = '/usr/lib/jvm/java-8-oracle/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.io.tmpdir.ivy.instance'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.library.path.ivy.instance'] = '/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.name.ivy.instance'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_201-b09';
+    
+        cur['java.runtime.version.ivy.instance'] = '1.8.0_201-b09';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.name.ivy.instance'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.specification.version.ivy.instance'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.vendor.url.bug.ivy.instance'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.vendor.url.ivy.instance'] = 'http://java.oracle.com/';
+    
+        cur['java.version'] = '1.8.0_201';
+    
+        cur['java.version.ivy.instance'] = '1.8.0_201';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.info.ivy.instance'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.name.ivy.instance'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.name.ivy.instance'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.specification.version.ivy.instance'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.201-b09';
+    
+        cur['java.vm.version.ivy.instance'] = '25.201-b09';
+    
+        cur['jedit.build.number'] = '05.05.99.00';
+    
+        cur['jEdit.keymap'] = '#{{{ Function keys\nhelp.shortcut=F1\nshow-context-menu.shortcut=CONTEXT_MENU\n#}}}\n\n#{{{ C+X\nselect-all.shortcut=C+a\ncomplete-word.shortcut=C+b\ncopy.shortcut=C+c\ndelete-line.shortcut=C+d\n# C+e is a prefix\nfind.shortcut=C+f\nfind-next.shortcut=F3\n# C+h is not usable on MacOS X\nindent-lines.shortcut=C+i\njoin-lines.shortcut=C+j\nswap-marker.shortcut=C+k\ngoto-line.shortcut=C+g\n# C+m is a prefix\nnew-file.shortcut=C+n\nnew-file-in-mode.shortcut=CS+n\nopen-file.shortcut=C+o\nreload.shortcut=F5\nprint.shortcut=C+p\nexit.shortcut=C+q\n# C+r is a prefix\nsave.shortcut=C+s\nadd-marker-shortcut.shortcut=C+t\nselect-marker.shortcut=C+u\npaste.shortcut=C+v\nclose-buffer.shortcut=C+w\ncut.shortcut=C+x\ngoto-marker.shortcut=C+y\nundo.shortcut=C+z\nunsplit-current.shortcut=C+0\nunsplit.shortcut=C+1\nsplit-horizontal.shortcut=C+2\nsplit-vertical.shortcut=C+3\nresplit.shortcut=C+4\n#}}}\n\n#{{{ C+non-alpha\ndelete-start-line.shortcut=CS+BACK_SPACE\ndelete-end-line.shortcut=CS+DELETE\nprev-paragraph.shortcut=C+UP\nnext-paragraph.shortcut=C+DOWN\nselect-prev-paragraph.shortcut=CS+UP\nselect-next-paragraph.shortcut=CS+DOWN\nbackspace-word.shortcut=C+BACK_SPACE\ndelete-word.shortcut=C+DELETE\ndocument-home.shortcut=C+HOME\ndocument-end.shortcut=C+END\nselect-document-home.shortcut=CS+HOME\nselect-document-end.shortcut=CS+END\nprev-word.shortcut=C+LEFT\nselect-prev-word.shortcut=CS+LEFT\nnext-word.shortcut=C+RIGHT\nselect-next-word.shortcut=CS+RIGHT\naction-bar.shortcut=C+ENTER\nprev-buffer.shortcut=C+PAGE_UP\nnext-buffer.shortcut=C+PAGE_DOWN\nlast-action.shortcut=C+SPACE\n\nrecent-buffer.shortcut=C+BACK_QUOTE\nselect-block.shortcut=C+OPEN_BRACKET\nmatch-bracket.shortcut=C+CLOSE_BRACKET\nexpand-abbrev.shortcut=C+SEMICOLON\nquick-search.shortcut=C+COMMA\nhypersearch.shortcut=C+PERIOD\nscroll-up-line.shortcut=C+QUOTE\nscroll-down-line.shortcut=C+SLASH\ntoggle-multi-select.shortcut=C+BACK_SLASH\n#}}}\n\n#{{{ C+e C+X\n# Unused: f, h, q, y\ncopy-append.shortcut=C+e C+a\nsearch-in-open-buffers.shortcut=C+e C+b\nrange-comment.shortcut=C+e C+c\nsearch-in-directory.shortcut=C+e C+d\nreplace-and-find-next.shortcut=C+e C+g\nignore-case.shortcut=C+e C+i\nscroll-to-current-line.shortcut=C+e C+j\nline-comment.shortcut=C+e C+k\nselect-line-range.shortcut=C+e C+l\nadd-marker.shortcut=C+e C+m\ncenter-caret.shortcut=C+e C+n\nscroll-and-center.shortcut=C+l\nopen-path.shortcut=C+e C+o\nvertical-paste.shortcut=C+e C+p\nreplace-in-selection.shortcut=C+e C+r\nsave-all.shortcut=C+e C+s\ntoggle-line-numbers.shortcut=C+e C+t\ncut-append.shortcut=C+e C+u\npaste-previous.shortcut=C+e C+v\nclose-all.shortcut=C+e C+w\nregexp.shortcut=C+e C+x\npaste-deleted.shortcut=C+e C+y\nredo.shortcut=C+e C+z\n#}}}\n\n#{{{ C+e C+non-alpha\nleft-docking-area.shortcut=C+e C+LEFT\ntop-docking-area.shortcut=C+e C+UP\nright-docking-area.shortcut=C+e C+RIGHT\nbottom-docking-area.shortcut=C+e C+DOWN\ntoggle-full-screen.shortcut=F11\ntoggle-dock-areas.shortcut=F12\ncombined-options.shortcut=C+F12\nprev-marker.shortcut=C+e C+COMMA\nnext-marker.shortcut=C+e C+PERIOD\nprev-bracket.shortcut=C+e C+OPEN_BRACKET\nnext-bracket.shortcut=C+e C+CLOSE_BRACKET\nclose-docking-area.shortcut=C+e C+BACK_QUOTE\n#}}}\n\n#{{{ C+e X\n# Unused: b e g h j k m o q t y z\nadd-explicit-fold.shortcut=C+e a\ncollapse-all-folds.shortcut=C+e c\ndelete-paragraph.shortcut=C+e d\nformat-paragraph.shortcut=C+e f\nfind-previous.shortcut=C+e g\ninvert-selection.shortcut=C+e i\nselect-line.shortcut=C+e l\nnarrow-to-fold.shortcut=C+e n n\nnarrow-to-selection.shortcut=C+e n s\nselect-paragraph.shortcut=C+e p\nremove-trailing-ws.shortcut=C+e r\nselect-fold.shortcut=C+e s\ninsert-literal.shortcut=C+e v\nselect-word.shortcut=C+e w\nparent-fold.shortcut=C+e u\nexpand-all-folds.shortcut=C+e x\n#}}}\n\n#{{{ C+e non-alpha\nexpand-folds.shortcut=C+e ENTER\n#}}}\n\n#{{{ C+m C+X\nrecord-temp-macro.shortcut=C+m C+m\nrun-temp-macro.shortcut=C+m C+p\nrecord-macro.shortcut=C+m C+r\nstop-recording.shortcut=C+m C+s\nlast-macro.shortcut=C+m C+l\n#}}}\n\n#{{{ C+r C+X\ncopy-append-string-register.shortcut=C+r C+a\ncopy-string-register.shortcut=C+r C+c\nclear-register.shortcut=C+r C+l\nvertical-paste-string-register.shortcut=C+r C+p\ncut-append-string-register.shortcut=C+r C+u\npaste-string-register.shortcut=C+r C+v\ncut-string-register.shortcut=C+r C+x\n#}}}\n\n#{{{ A+non-alpha\nprev-fold.shortcut=A+UP\nnext-fold.shortcut=A+DOWN\nshift-left.shortcut=A+LEFT\nshift-right.shortcut=A+RIGHT\ncollapse-fold.shortcut=A+BACK_SPACE\nexpand-fold.shortcut=AS+ENTER\nexpand-one-level.shortcut=A+ENTER\nquick-search-word.shortcut=A+COMMA\nhypersearch-word.shortcut=A+PERIOD\nscroll-up-page.shortcut=A+QUOTE\nscroll-down-page.shortcut=A+SLASH\nprev-textarea.shortcut=A+PAGE_UP\nnext-textarea.shortcut=A+PAGE_DOWN\n\nfocus-buffer-switcher.shortcut=A+BACK_QUOTE\ntoggle-rect-select.shortcut=A+BACK_SLASH\n#}}}\n\n#{{{ Other keys\nshift-left.shortcut2=S+TAB\nselect-none.shortcut=ESCAPE\nbackspace.shortcut=BACK_SPACE\ndelete.shortcut=DELETE\noverwrite.shortcut=INSERT\nhome.shortcut=HOME\nend.shortcut=END\nselect-home.shortcut=S+HOME\nselect-end.shortcut=S+END\nprev-page.shortcut=PAGE_UP\nnext-page.shortcut=PAGE_DOWN\nselect-prev-page.shortcut=S+PAGE_UP\nselect-next-page.shortcut=S+PAGE_DOWN\nprev-char.shortcut=LEFT\nselect-prev-char.shortcut=S+LEFT\nnext-char.shortcut=RIGHT\nselect-next-char.shortcut=S+RIGHT\nprev-line.shortcut=UP\nselect-prev-line.shortcut=S+UP\nnext-line.shortcut=DOWN\nselect-next-line.shortcut=S+DOWN\ninsert-newline-indent.shortcut=ENTER\ninsert-newline.shortcut=S+ENTER\ninsert-tab-indent.shortcut=TAB\n#}}}\n\n#{{{ Alternative shortcuts for frequently-used commands\nselect-next-page.shortcut2=AS+a\nselect-prev-line.shortcut2=AS+i\nselect-prev-char.shortcut2=AS+j\nselect-next-line.shortcut2=AS+k\nselect-next-char.shortcut2=AS+l\nselect-prev-page.shortcut2=AS+q\nselect-end.shortcut2=AS+x\nselect-home.shortcut2=AS+z\ncopy.shortcut2=C+INSERT\npaste.shortcut2=S+INSERT\ncut.shortcut2=S+DELETE\n#}}}\n\n#{{{ VFS browser\nvfs.browser.delete.shortcut=DELETE\nvfs.browser.home.shortcut=~\nvfs.browser.new-directory.shortcut=INSERT\nvfs.browser.new-file.shortcut=C+n\nvfs.browser.reload.shortcut=F5\nvfs.browser.rename.shortcut=F2\nvfs.browser.roots.shortcut=/\nvfs.browser.synchronize.shortcut=-\nvfs.browser.up.shortcut=A+Up\nvfs.browser.previous.shortcut=A+Left\nvfs.browser.next.shortcut=A+Right\n#}}}\n';
+    
+        cur['jedit.plugins.artifact.patterns'] = '<artifact pattern="jar:http://cytranet.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://excellmedia.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://freefr.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://heanet.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://internode.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://iweb.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://jaist.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://kent.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://liquidtelecom.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://nchc.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://ncu.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://netcologne.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://netix.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://pilotfiber.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://superb-dca2.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://superb-sea2.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://svwh.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://tenet.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://ufpr.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n<artifact pattern="jar:http://vorboss.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar" />\n';
+    
+        cur['jedit.version'] = '5.5.0';
+    
+        cur['jedit.version.final'] = 'true';
+    
+        cur['lib.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/lib';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['line.separator.ivy.instance'] = '\n';
+    
+        cur['mac.disk.image.filename'] = 'jedit5.5.0install.dmg';
+    
+        cur['mac.target.java.version'] = '1.8+';
+    
+        cur['manual.filename.prefix'] = 'jedit5.5.0manual-';
+    
+        cur['org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0'] = '/tmp/null1430693484';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.arch.ivy.instance'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.name.ivy.instance'] = 'Linux';
+    
+        cur['os.version'] = '4.15.0-46-generic';
+    
+        cur['os.version.ivy.instance'] = '4.15.0-46-generic';
+    
+        cur['path.separator'] = ':';
+    
+        cur['path.separator.ivy.instance'] = ':';
+    
+        cur['slackware.target.java.version'] = '1_8_0';
+    
+        cur['src.archive.filename'] = 'jedit5.5.0source.tar.bz2';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.arch.data.model.ivy.instance'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes';
+    
+        cur['sun.boot.class.path.ivy.instance'] = '/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-8-oracle/jre/lib/amd64';
+    
+        cur['sun.boot.library.path.ivy.instance'] = '/usr/lib/jvm/java-8-oracle/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.endian.ivy.instance'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.cpu.isalist.ivy.instance'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.desktop.ivy.instance'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.io.unicode.encoding.ivy.instance'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.jedit.io.Native2ASCIIEncodingTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/build/test/raw-reports/TEST-org.jedit.io.Native2ASCIIEncodingTest.xml crashfile=/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/junitvmwatcher897431225814841932.properties propsfile=/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit/junit69338779084469287.properties';
+    
+        cur['sun.java.command.ivy.instance'] = 'org.apache.tools.ant.launch.Launcher -cp  retrieve build test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.java.launcher.ivy.instance'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.jnu.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.management.compiler.ivy.instance'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['sun.os.patch.level.ivy.instance'] = 'unknown';
+    
+        cur['target.java.version'] = '1.8';
+    
+        cur['textAreaPackage'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/textarea';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.country.ivy.instance'] = 'US';
+    
+        cur['user.dir'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit';
+    
+        cur['user.dir.ivy.instance'] = '/media/mrdragan/Ubuntu/myCSU/cs515/a1/cs515-s19-reNo-jedit';
+    
+        cur['user.home'] = '/home/mrdragan';
+    
+        cur['user.home.ivy.instance'] = '/home/mrdragan';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.language.ivy.instance'] = 'en';
+    
+        cur['user.name'] = 'mrdragan';
+    
+        cur['user.name.ivy.instance'] = 'mrdragan';
+    
+        cur['user.timezone'] = '';
+    
+        cur['user.timezone.ivy.instance'] = 'America/Denver';
+    
+        cur['win.filename'] = 'jedit5.5.0install';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style type=\"text/css\">");
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h3>Class org.jedit.io.Native2ASCIIEncodingTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="Pass">
+<td><a title="Display all tests" href="0_Native2ASCIIEncodingTest.html">Native2ASCIIEncodingTest</a></td><td><a title="Display all tests" href="0_Native2ASCIIEncodingTest.html">108</a></td><td>0</td><td>0</td><td>0</td><td>0.088</td><td>2019-03-15T03:18:48</td><td>mrdragan-GS63VR-7RF</td>
+</tr>
+</table>
+<h2>Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldThrowExceptionOnIncompleteEscapeSequence"></a>read_CharBuffer_ShouldThrowExceptionOnIncompleteEscapeSequence</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldConvertEscapeSequence"></a>read_charArray_int_int_ShouldConvertEscapeSequence</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash"></a>read_charArray_int_int_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldThrowExceptionOnIncompleteEscapeSequence"></a>read_charArray_int_int_ShouldThrowExceptionOnIncompleteEscapeSequence</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_charArray_int_int_ShouldAcceptIncompleteEscapeSequence"></a>permissiveRead_charArray_int_int_ShouldAcceptIncompleteEscapeSequence</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash"></a>readShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldThrowExceptionOnIncompleteEscapeSequence"></a>readShouldThrowExceptionOnIncompleteEscapeSequence</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldThrowExceptionOnIncompleteEscapeSequence"></a>read_charArray_ShouldThrowExceptionOnIncompleteEscapeSequence</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readerShouldReadSingleCharactersIfWriterAddedAnEscapingBackslash"></a>readerShouldReadSingleCharactersIfWriterAddedAnEscapingBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readerShouldDecodeIfWriterHasWrittenEscapeSequenceAsSingleCharacters"></a>readerShouldDecodeIfWriterHasWrittenEscapeSequenceAsSingleCharacters</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="write_int_ShouldEncodeASCIICharactersCorrectly"></a>write_int_ShouldEncodeASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="write_charArray_int_int_ShouldEncodeASCIICharactersCorrectly"></a>write_charArray_int_int_ShouldEncodeASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="write_String_int_int_ShouldEncodeASCIICharactersCorrectly"></a>write_String_int_int_ShouldEncodeASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="write_charArray_ShouldEncodeASCIICharactersCorrectly"></a>write_charArray_ShouldEncodeASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="write_String_ShouldEncodeASCIICharactersCorrectly"></a>write_String_ShouldEncodeASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="append_char_ShouldEncodeASCIICharactersCorrectly"></a>append_char_ShouldEncodeASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="append_CharSequence_int_int_ShouldEncodeASCIICharactersCorrectly"></a>append_CharSequence_int_int_ShouldEncodeASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="append_CharSequence_ShouldEncodeASCIICharactersCorrectly"></a>append_CharSequence_ShouldEncodeASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="write_int_ShouldEncodeNonASCIICharactersCorrectly"></a>write_int_ShouldEncodeNonASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="write_charArray_int_int_ShouldEncodeNonASCIICharactersCorrectly"></a>write_charArray_int_int_ShouldEncodeNonASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="write_String_int_int_ShouldEncodeNonASCIICharactersCorrectly"></a>write_String_int_int_ShouldEncodeNonASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="write_charArray_ShouldEncodeNonASCIICharactersCorrectly"></a>write_charArray_ShouldEncodeNonASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="write_String_ShouldEncodeNonASCIICharactersCorrectly"></a>write_String_ShouldEncodeNonASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="append_char_ShouldEncodeNonASCIICharactersCorrectly"></a>append_char_ShouldEncodeNonASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="append_CharSequence_int_int_ShouldEncodeNonASCIICharactersCorrectly"></a>append_CharSequence_int_int_ShouldEncodeNonASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="append_CharSequence_ShouldEncodeNonASCIICharactersCorrectly"></a>append_CharSequence_ShouldEncodeNonASCIICharactersCorrectly</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="append_CharSequence_int_int_ShouldEncodeNullCorrectly"></a>append_CharSequence_int_int_ShouldEncodeNullCorrectly</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="append_CharSequence_ShouldEncodeNullCorrectly"></a>append_CharSequence_ShouldEncodeNullCorrectly</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldThrowExceptionOnMalformedInputWithThrottledReader"></a>readShouldThrowExceptionOnMalformedInputWithThrottledReader</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldThrowExceptionOnMalformedInputWithThrottledReader"></a>read_charArray_ShouldThrowExceptionOnMalformedInputWithThrottledReader</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldThrowExceptionOnMalformedInputWithThrottledReader"></a>read_charArray_int_int_ShouldThrowExceptionOnMalformedInputWithThrottledReader</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldThrowExceptionOnMalformedInputWithThrottledReader"></a>read_CharBuffer_ShouldThrowExceptionOnMalformedInputWithThrottledReader</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldConvertEscapeSequenceWithThrottledInputStream"></a>readShouldConvertEscapeSequenceWithThrottledInputStream</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldConvertEscapeSequenceWithThrottledInputStream"></a>read_charArray_ShouldConvertEscapeSequenceWithThrottledInputStream</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldConvertEscapeSequenceWithThrottledInputStream"></a>read_charArray_int_int_ShouldConvertEscapeSequenceWithThrottledInputStream</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldConvertEscapeSequenceWithThrottledInputStream"></a>read_CharBuffer_ShouldConvertEscapeSequenceWithThrottledInputStream</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldReadBackslashWithoutFollowingUAsBackslash"></a>readShouldReadBackslashWithoutFollowingUAsBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldReadBackslashWithoutFollowingUAsBackslash"></a>read_charArray_ShouldReadBackslashWithoutFollowingUAsBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldReadBackslashWithoutFollowingUAsBackslash"></a>read_charArray_int_int_ShouldReadBackslashWithoutFollowingUAsBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldReadBackslashWithoutFollowingUAsBackslash"></a>read_CharBuffer_ShouldReadBackslashWithoutFollowingUAsBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveReadShouldAcceptMalformedInputWithThrottledReader"></a>permissiveReadShouldAcceptMalformedInputWithThrottledReader</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_charArray_ShouldAcceptMalformedInputWithThrottledReader"></a>permissiveRead_charArray_ShouldAcceptMalformedInputWithThrottledReader</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_charArray_int_int_ShouldAcceptMalformedInputWithThrottledReader"></a>permissiveRead_charArray_int_int_ShouldAcceptMalformedInputWithThrottledReader</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_CharBuffer_ShouldAcceptMalformedInputWithThrottledReader"></a>permissiveRead_CharBuffer_ShouldAcceptMalformedInputWithThrottledReader</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_shouldReadOnAfterCollapsingEscapeSequences"></a>read_charArray_shouldReadOnAfterCollapsingEscapeSequences</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_shouldReadOnAfterCollapsingEscapeSequences"></a>read_charArray_int_int_shouldReadOnAfterCollapsingEscapeSequences</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_shouldReadOnAfterCollapsingEscapeSequences"></a>read_CharBuffer_shouldReadOnAfterCollapsingEscapeSequences</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldIgnoreEscapeSequenceThatFollowsOneBackslash"></a>readShouldIgnoreEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash"></a>read_charArray_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash"></a>read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash"></a>read_CharBuffer_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldConvertEscapeSequenceThatFollowsTwoBackslashes"></a>readShouldConvertEscapeSequenceThatFollowsTwoBackslashes</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes"></a>read_charArray_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes"></a>read_charArray_int_int_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes"></a>read_CharBuffer_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="differentReadMethodsShouldBeUsableOnTheSameStream"></a>differentReadMethodsShouldBeUsableOnTheSameStream</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes"></a>readShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes"></a>read_charArray_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes"></a>read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes"></a>read_CharBuffer_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash"></a>readShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash"></a>read_charArray_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash"></a>read_charArray_int_int_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash"></a>read_CharBuffer_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash"></a>readShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash"></a>read_charArray_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash"></a>read_charArray_int_int_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash"></a>read_CharBuffer_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="differentReadMethodsShouldHaveACommonEscapeSequenceHandling"></a>differentReadMethodsShouldHaveACommonEscapeSequenceHandling</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="skipShouldThrowExceptionIfToSkipIsNegative"></a>skipShouldThrowExceptionIfToSkipIsNegative</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="skipShouldNotDoAnythingIfToSkipIsZero"></a>skipShouldNotDoAnythingIfToSkipIsZero</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="skipShouldSkipGivenAmountIfAvailable"></a>skipShouldSkipGivenAmountIfAvailable</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="skipShouldSkipAllIfToSkipIsGreaterThanInputLength"></a>skipShouldSkipAllIfToSkipIsGreaterThanInputLength</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="multipleSkipCallsShouldWork"></a>multipleSkipCallsShouldWork</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="textReaderWithNullAsClassParameterShouldWork"></a>textReaderWithNullAsClassParameterShouldWork</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readerShouldBeAbleToDecodeWhatWriterHasEncoded"></a>readerShouldBeAbleToDecodeWhatWriterHasEncoded</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldConvertEscapeSequence"></a>readShouldConvertEscapeSequence</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldConvertEscapeSequence"></a>read_charArray_ShouldConvertEscapeSequence</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldConvertEscapeSequence"></a>read_CharBuffer_ShouldConvertEscapeSequence</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldThrowExceptionOnMissingInputAfterU"></a>readShouldThrowExceptionOnMissingInputAfterU</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldThrowExceptionOnMissingInputAfterU"></a>read_charArray_ShouldThrowExceptionOnMissingInputAfterU</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldThrowExceptionOnMissingInputAfterU"></a>read_charArray_int_int_ShouldThrowExceptionOnMissingInputAfterU</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldThrowExceptionOnMissingInputAfterU"></a>read_CharBuffer_ShouldThrowExceptionOnMissingInputAfterU</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldThrowExceptionOnMalformedInput"></a>readShouldThrowExceptionOnMalformedInput</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldThrowExceptionOnMalformedInput"></a>read_charArray_ShouldThrowExceptionOnMalformedInput</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldThrowExceptionOnMalformedInput"></a>read_charArray_int_int_ShouldThrowExceptionOnMalformedInput</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldThrowExceptionOnMalformedInput"></a>read_CharBuffer_ShouldThrowExceptionOnMalformedInput</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveReadShouldAcceptIncompleteEscapeSequence"></a>permissiveReadShouldAcceptIncompleteEscapeSequence</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_charArray_ShouldAcceptIncompleteEscapeSequence"></a>permissiveRead_charArray_ShouldAcceptIncompleteEscapeSequence</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_CharBuffer_ShouldAcceptIncompleteEscapeSequence"></a>permissiveRead_CharBuffer_ShouldAcceptIncompleteEscapeSequence</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveReadShouldAcceptMissingInputAfterU"></a>permissiveReadShouldAcceptMissingInputAfterU</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_charArray_ShouldAcceptMissingInputAfterU"></a>permissiveRead_charArray_ShouldAcceptMissingInputAfterU</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_charArray_int_int_ShouldAcceptMissingInputAfterU"></a>permissiveRead_charArray_int_int_ShouldAcceptMissingInputAfterU</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_CharBuffer_ShouldAcceptMissingInputAfterU"></a>permissiveRead_CharBuffer_ShouldAcceptMissingInputAfterU</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveReadShouldAcceptMalformedInput"></a>permissiveReadShouldAcceptMalformedInput</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_charArray_ShouldAcceptMalformedInput"></a>permissiveRead_charArray_ShouldAcceptMalformedInput</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_charArray_int_int_ShouldAcceptMalformedInput"></a>permissiveRead_charArray_int_int_ShouldAcceptMalformedInput</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="permissiveRead_CharBuffer_ShouldAcceptMalformedInput"></a>permissiveRead_CharBuffer_ShouldAcceptMalformedInput</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldCorrectlyHandleEOF"></a>readShouldCorrectlyHandleEOF</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldCorrectlyHandleEOF"></a>read_charArray_ShouldCorrectlyHandleEOF</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldCorrectlyHandleEOF"></a>read_charArray_int_int_ShouldCorrectlyHandleEOF</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldCorrectlyHandleEOF"></a>read_CharBuffer_ShouldCorrectlyHandleEOF</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="readShouldCorrectlyHandleEOFAfterBackslash"></a>readShouldCorrectlyHandleEOFAfterBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldCorrectlyHandleEOFAfterBackslash"></a>read_charArray_ShouldCorrectlyHandleEOFAfterBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_int_int_ShouldCorrectlyHandleEOFAfterBackslash"></a>read_charArray_int_int_ShouldCorrectlyHandleEOFAfterBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldCorrectlyHandleEOFAfterBackslash"></a>read_CharBuffer_ShouldCorrectlyHandleEOFAfterBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_charArray_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash"></a>read_charArray_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="read_CharBuffer_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash"></a>read_CharBuffer_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('org.jedit.io.Native2ASCIIEncodingTest');">
+                    Properties &raquo;
+                </a>
+</div>
+</body>
+</html>
