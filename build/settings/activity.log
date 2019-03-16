@@ -110,3 +110,6 @@ Utilities->Troubleshooting->Update Activity Log on Disk command!
 8:47:47 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
 8:48:05 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
 8:48:05 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+1:57:18 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+1:57:18 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+1:57:19 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
