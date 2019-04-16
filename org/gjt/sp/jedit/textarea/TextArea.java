@@ -3145,10 +3145,7 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 		// replace comments with whitespace to find endOfCode:
 		while(true)
 		{
-			if( token.id == Token.COMMENT1 ||
-				token.id == Token.COMMENT2 ||
-				token.id == Token.COMMENT3 ||
-				token.id == Token.COMMENT4)
+			if( token.isComment())
 			{
 				for(int i=token.offset; i<token.offset+token.length; i++)
 				{
@@ -3170,7 +3167,7 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 			selectNone();
 		moveCaretPosition(newCaret);
 	} //}}}
-
+	
 	//{{{ goToStartOfWhiteSpace() method
 	/**
 	 * Moves the caret to the first non-whitespace character of the current

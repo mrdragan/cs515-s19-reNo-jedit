@@ -23,6 +23,8 @@ package org.gjt.sp.jedit.syntax;
 
 import java.lang.reflect.Field;
 
+import org.gjt.sp.jedit.bsh.Token;
+
 /**
  * A linked list of syntax tokens.
  *
@@ -182,7 +184,15 @@ public class Token
 			return true;
 		default:
 			return false;
-		}		
+		}	
 	} //}}}
+	
+	public boolean isComment()
+	{
+	    return this.id == Token.COMMENT1 ||
+			   this.id == Token.COMMENT2 ||
+			   this.id == Token.COMMENT3 ||
+			   this.id == Token.COMMENT4;
+	}
 
 }
