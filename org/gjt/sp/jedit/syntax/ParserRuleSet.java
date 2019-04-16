@@ -49,41 +49,41 @@ public class ParserRuleSet
 	//{{{ ParserRuleSet constructor
 	public ParserRuleSet(String modeName, String setName)
 	{
-		this.modeName = modeName;
-		this.setName = setName;
-		ruleMap = new HashMap<Character, List<ParserRule>>();
-		imports = new ArrayList<ParserRuleSet>();
+		this.data.modeName = modeName;
+		this.data.setName = setName;
+		data.ruleMap = new HashMap<Character, List<ParserRule>>();
+		data.imports = new ArrayList<ParserRuleSet>();
 	} //}}}
 
 	//{{{ getModeName() method
 	public String getModeName()
 	{
-		return modeName;
+		return data.modeName;
 	} //}}}
 
 	//{{{ getSetName() method
 	public String getSetName()
 	{
-		return setName;
+		return data.setName;
 	} //}}}
 
 	//{{{ getName() method
 	public String getName()
 	{
-		return modeName + "::" + setName;
+		return data.modeName + "::" + data.setName;
 	} //}}}
 
 	//{{{ getProperties() method
 	public Hashtable<String, String> getProperties()
 	{
-		return props;
+		return data.props;
 	} //}}}
 
 	//{{{ setProperties() method
 	public void setProperties(Hashtable<String, String> props)
 	{
-		this.props = props;
-		_noWordSep = null;
+		this.data.props = props;
+		data._noWordSep = null;
 	} //}}}
 
 	//{{{ resolveImports() method
@@ -93,16 +93,16 @@ public class ParserRuleSet
 	 */
 	public void resolveImports()
 	{
-		for (ParserRuleSet ruleset : imports)
+		for (ParserRuleSet ruleset : data.imports)
 		{
-			if (!ruleset.imports.isEmpty())
+			if (!ruleset.data.imports.isEmpty())
 			{
 				//prevent infinite recursion
-				ruleset.imports.remove(this);
+				ruleset.data.imports.remove(this);
 				ruleset.resolveImports();
 			}
 
-			for (List<ParserRule> rules : ruleset.ruleMap.values())
+			for (List<ParserRule> rules : ruleset.data.ruleMap.values())
 			{
 				for (ParserRule rule : rules)
 				{
@@ -110,14 +110,14 @@ public class ParserRuleSet
 				}
 			}
 
-			if (ruleset.keywords != null)
+			if (ruleset.data.keywords != null)
 			{
-				if (keywords == null)
-					keywords = new KeywordMap(ignoreCase);
-				keywords.add(ruleset.keywords);
+				if (data.keywords == null)
+					data.keywords = new KeywordMap(data.ignoreCase);
+				data.keywords.add(ruleset.data.keywords);
 			}
 		}
-		imports.clear();
+		data.imports.clear();
 	} //}}}
 
 	//{{{ addRuleSet() method
@@ -128,13 +128,13 @@ public class ParserRuleSet
 	 */
 	public void addRuleSet(ParserRuleSet ruleset)
 	{
-		imports.add(ruleset);
+		data.imports.add(ruleset);
 	} //}}}
 
 	//{{{ addRule() method
 	public void addRule(ParserRule r)
 	{
-		ruleCount++;
+		data.ruleCount++;
 		Character[] keys;
 		if (null == r.upHashChars)
 		{
@@ -159,11 +159,11 @@ public class ParserRuleSet
 		}
 		for (Character key : keys)
 		{
-			List<ParserRule> rules = ruleMap.get(key);
+			List<ParserRule> rules = data.ruleMap.get(key);
 			if (null == rules)
 			{
 				rules = new ArrayList<ParserRule>();
-				ruleMap.put(key,rules);
+				data.ruleMap.put(key,rules);
 			}
 			rules.add(r);
 		}
@@ -172,10 +172,10 @@ public class ParserRuleSet
 	//{{{ getRules() method
 	public List<ParserRule> getRules(Character key)
 	{
-		List<ParserRule> rulesForNull = ruleMap.get(null);
+		List<ParserRule> rulesForNull = data.ruleMap.get(null);
 		boolean emptyForNull = rulesForNull == null || rulesForNull.isEmpty();
 		Character upperKey = key == null ? null : Character.valueOf(Character.toUpperCase(key.charValue()));
-		List<ParserRule> rulesForKey = upperKey == null ? null : ruleMap.get(upperKey);
+		List<ParserRule> rulesForKey = upperKey == null ? null : data.ruleMap.get(upperKey);
 		boolean emptyForKey = rulesForKey == null || rulesForKey.isEmpty();
 		if (emptyForNull && emptyForKey)
 		{
@@ -202,7 +202,7 @@ public class ParserRuleSet
 	//{{{ getRuleCount() method
 	public int getRuleCount()
 	{
-		return ruleCount;
+		return data.ruleCount;
 	} //}}}
 
 	//{{{ getTerminateChar() method
@@ -213,107 +213,107 @@ public class ParserRuleSet
 	 */
 	public int getTerminateChar()
 	{
-		return terminateChar;
+		return data.terminateChar;
 	} //}}}
 
 	//{{{ setTerminateChar() method
 	public void setTerminateChar(int atChar)
 	{
-		terminateChar = (atChar >= 0) ? atChar : -1;
+		data.terminateChar = (atChar >= 0) ? atChar : -1;
 	} //}}}
 
 	//{{{ getIgnoreCase() method
 	public boolean getIgnoreCase()
 	{
-		return ignoreCase;
+		return data.ignoreCase;
 	} //}}}
 
 	//{{{ setIgnoreCase() method
 	public void setIgnoreCase(boolean b)
 	{
-		ignoreCase = b;
+		data.ignoreCase = b;
 	} //}}}
 
 	//{{{ getKeywords() method
 	public KeywordMap getKeywords()
 	{
-		return keywords;
+		return data.keywords;
 	} //}}}
 
 	//{{{ setKeywords() method
 	public void setKeywords(KeywordMap km)
 	{
-		keywords = km;
-		_noWordSep = null;
+		data.keywords = km;
+		data._noWordSep = null;
 	} //}}}
 
 	//{{{ getHighlightDigits() method
 	public boolean getHighlightDigits()
 	{
-		return highlightDigits;
+		return data.highlightDigits;
 	} //}}}
 
 	//{{{ setHighlightDigits() method
 	public void setHighlightDigits(boolean highlightDigits)
 	{
-		this.highlightDigits = highlightDigits;
+		this.data.highlightDigits = highlightDigits;
 	} //}}}
 
 	//{{{ getDigitRegexp() method
 	public Pattern getDigitRegexp()
 	{
-		return digitRE;
+		return data.digitRE;
 	} //}}}
 
 	//{{{ setDigitRegexp() method
 	public void setDigitRegexp(Pattern digitRE)
 	{
-		this.digitRE = digitRE;
+		this.data.digitRE = digitRE;
 	} //}}}
 
 	//{{{ getEscapeRule() method
 	public ParserRule getEscapeRule()
 	{
-		return escapeRule;
+		return data.escapeRule;
 	} //}}}
 
 	//{{{ setEscapeRule() method
 	public void setEscapeRule(ParserRule escapeRule)
 	{
-		this.escapeRule = escapeRule;
+		this.data.escapeRule = escapeRule;
 	} //}}}
 
 	//{{{ getDefault() method
 	public byte getDefault()
 	{
-		return defaultToken;
+		return data.defaultToken;
 	} //}}}
 
 	//{{{ setDefault() method
 	public void setDefault(byte def)
 	{
-		defaultToken = def;
+		data.defaultToken = def;
 	} //}}}
 
 	//{{{ getNoWordSep() method
 	public String getNoWordSep()
 	{
-		if(_noWordSep == null)
+		if(data._noWordSep == null)
 		{
-			_noWordSep = noWordSep;
-			if(noWordSep == null)
-				noWordSep = "";
-			if(keywords != null)
-				noWordSep += keywords.getNonAlphaNumericChars();
+			data._noWordSep = data.noWordSep;
+			if(data.noWordSep == null)
+				data.noWordSep = "";
+			if(data.keywords != null)
+				data.noWordSep += data.keywords.getNonAlphaNumericChars();
 		}
-		return noWordSep;
+		return data.noWordSep;
 	} //}}}
 
 	//{{{ setNoWordSep() method
 	public void setNoWordSep(String noWordSep)
 	{
-		this.noWordSep = noWordSep;
-		_noWordSep = null;
+		this.data.noWordSep = noWordSep;
+		data._noWordSep = null;
 	} //}}}
 
 	//{{{ isBuiltIn() method
@@ -323,14 +323,14 @@ public class ParserRuleSet
 	 */
 	public boolean isBuiltIn()
 	{
-		return builtIn;
+		return data.builtIn;
 	} //}}}
 
 	//{{{ toString() method
 	@Override
 	public String toString()
 	{
-		return getClass().getName() + '[' + modeName + "::" + setName + ']';
+		return getClass().getName() + '[' + data.modeName + "::" + data.setName + ']';
 	} //}}}
 
 	//{{{ Private members
@@ -343,37 +343,10 @@ public class ParserRuleSet
 		{
 			standard[i] = new ParserRuleSet(null,null);
 			standard[i].setDefault(i);
-			standard[i].builtIn = true;
+			standard[i].data.builtIn = true;
 		}
 	}
 
-	private final String modeName;
-	private final String setName;
-	private Hashtable<String, String> props;
-
-	private KeywordMap keywords;
-
-	private int ruleCount;
-
-	private final Map<Character, List<ParserRule>> ruleMap;
-
-	private final List<ParserRuleSet> imports;
-
-	/**
-	 * The number of chars that can be read before the parsing stops.
-	 * &lt;TERMINATE AT_CHAR="1" /&gt;
-	 */
-	private int terminateChar = -1;
-	private boolean ignoreCase = true;
-	private byte defaultToken;
-	private ParserRule escapeRule;
-
-	private boolean highlightDigits;
-	private Pattern digitRE;
-
-	private String _noWordSep;
-	private String noWordSep;
-
-	private boolean builtIn;
-	//}}}
+	
+private ParserRuleSetData data = new ParserRuleSetData(-1, true);
 }
